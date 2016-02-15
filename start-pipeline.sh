@@ -1,0 +1,1 @@
+ tail -f /var/log/messages | KAFKA/kafka_2.10-0.8.2.0/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic cs286
